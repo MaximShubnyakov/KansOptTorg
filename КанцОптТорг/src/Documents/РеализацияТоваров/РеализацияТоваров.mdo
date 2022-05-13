@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e24e6a9-18aa-4433-881e-d0d39a17af82">
+  <producedTypes>
+    <objectType typeId="4a4634c3-96f6-4e44-ae2e-591cd6bdbee2" valueTypeId="a3100954-27e3-4d26-9cdf-2020420f5c11"/>
+    <refType typeId="d0056631-3c23-4d6a-ba8c-ea0541cb8a4e" valueTypeId="3c7f91d0-95f2-40cc-beb7-3c2206bbf027"/>
+    <selectionType typeId="b66b7795-f2f1-4a47-9b11-d9973c387820" valueTypeId="8349b287-5960-4a39-8427-9c2d4a6a6c85"/>
+    <listType typeId="503467f8-39a4-48b0-ab56-f33e63cc3ff0" valueTypeId="a95d683f-c3bd-4da7-a0c6-96bc99441a1d"/>
+    <managerType typeId="b36954f9-d39e-4a12-978c-d5eef2568565" valueTypeId="df691bbb-ddf1-460d-a9ef-c0db383e1a8e"/>
+  </producedTypes>
+  <name>РеализацияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеализацияТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РеализацияТоваров.Form.РеализацияТоваров</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9215ee85-52b7-4fd3-a1fe-4bb345b85c7d">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e119fdd-7397-4faf-a1c4-d130b7f29a1e">
+    <name>Колличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колличество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c53f3f59-8bf0-4ab9-9fe0-06671f862213">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9881b103-98eb-4dcf-b744-4dcca5a84522">
+    <name>РеализацияТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация товаров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
