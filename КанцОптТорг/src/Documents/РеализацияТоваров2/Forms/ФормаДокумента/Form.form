@@ -705,7 +705,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.РеализацияТоваров</types>
+      <types>DocumentObject.РеализацияТоваров2</types>
     </valueType>
     <view>
       <common>true</common>
@@ -723,15 +723,6 @@
     <navigationPanel>
       <cmiFragmentRecord>
         <command>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenByRecorder</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</command>
         <commandParameter xsi:type="form:DataPath">
           <segments>Объект.Ref</segments>
         </commandParameter>

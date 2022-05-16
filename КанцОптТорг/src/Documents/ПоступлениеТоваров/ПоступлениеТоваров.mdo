@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПоступлениеТоваров.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.Закупки</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="abd055fc-4139-4068-be9f-f06140985af9">
@@ -51,8 +52,8 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
+        <precision>15</precision>
+        <scale>3</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

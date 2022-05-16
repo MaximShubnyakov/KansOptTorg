@@ -39,11 +39,20 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров2</documents>
   <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
 </mdclass:Configuration>
