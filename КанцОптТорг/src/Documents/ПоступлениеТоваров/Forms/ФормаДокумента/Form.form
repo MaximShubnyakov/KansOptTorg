@@ -722,6 +722,15 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
+        <command>AccumulationRegister.Закупки.StandardCommand.OpenByRecorder</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.Ref</segments>
+        </commandParameter>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord>
         <command>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenByRecorder</command>
         <commandParameter xsi:type="form:DataPath">
           <segments>Объект.Ref</segments>
