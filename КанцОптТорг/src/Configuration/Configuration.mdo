@@ -51,6 +51,7 @@
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкиТоваров</reports>
+  <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>

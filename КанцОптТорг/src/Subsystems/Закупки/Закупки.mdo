@@ -17,4 +17,5 @@
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
   <content>Report.ЗакупкиТоваров</content>
+  <content>Report.ОстаткиТоваровПоДаннымДокумента</content>
 </mdclass:Subsystem>
