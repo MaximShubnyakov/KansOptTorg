@@ -419,10 +419,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Товары.Колличество</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТоварыКолличествоПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТоварыКолличествоРасширеннаяПодсказка</name>
         <id>40</id>
@@ -473,10 +469,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Товары.Цена</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТоварыЦенаПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТоварыЦенаРасширеннаяПодсказка</name>
         <id>43</id>
@@ -558,10 +550,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>AutoComplete</event>
-          <name>ТоварыСуммаАвтоПодбор</name>
-        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -782,26 +770,7 @@
     <savedData>true</savedData>
   </attributes>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenByRecorder</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-    </navigationPanel>
+    <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
