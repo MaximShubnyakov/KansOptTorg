@@ -28,6 +28,7 @@
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <registerRecords>AccountingRegister.РегистрыБухУчёт</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1dbb49d1-c771-45ab-bb0d-a0e8d1578910">

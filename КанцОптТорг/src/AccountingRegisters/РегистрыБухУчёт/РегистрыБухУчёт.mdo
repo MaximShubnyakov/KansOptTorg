@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c8b0c44-1c51-448a-bb97-eb73e3c95de0">
+  <producedTypes>
+    <selectionType typeId="204120af-20fd-4310-97da-e3735d65eacc" valueTypeId="2ae0d167-0c9f-44f9-b171-808eb23bffca"/>
+    <listType typeId="6f220dfa-a399-4ae4-86ba-20b29298c128" valueTypeId="b2ee405b-dd7f-4066-9882-9ba96ee5546b"/>
+    <managerType typeId="7a79ce7f-f5da-438d-8e9d-83fd8424db99" valueTypeId="078c8bb0-872a-4310-91b4-2111af154d56"/>
+    <recordSetType typeId="901470fa-054b-40d8-8d58-e711a9dacd39" valueTypeId="26047195-fb9f-4251-adaa-11dbcc893e1b"/>
+    <recordKeyType typeId="598d3f15-eb88-4d16-b955-b076f31c7079" valueTypeId="6eb9e433-5fa9-4fd5-bbf8-060a78195425"/>
+    <recordType typeId="039cb5fe-1be0-4e6a-81cb-00d705b8a5c3" valueTypeId="d6d4a0fa-60e9-40b2-ab8e-f86ec0cf03af"/>
+    <extDimensionsType typeId="848d83ff-63ff-46f4-b556-a36269c81f2e" valueTypeId="f8527379-6346-469e-a5da-3738db4ca9a8"/>
+  </producedTypes>
+  <name>РегистрыБухУчёт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры бух учёт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.БухУчёт</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="400a263a-af78-4bb3-b232-7010c3050833">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>
