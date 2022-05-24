@@ -55,6 +55,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <attributes uuid="d2b00c6d-a3b1-48d8-92e7-830c67c68873">
+    <name>Выручка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выручка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="08517cc2-fd09-4807-8116-5650633cc367">
     <name>Номенклатура</name>
     <synonym>

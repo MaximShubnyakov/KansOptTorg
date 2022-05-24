@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33421bdc-05bf-439c-a051-ceca7f91d40e">
+  <producedTypes>
+    <objectType typeId="c0fe74c5-5e6f-4a34-b8eb-3c8d8e353207" valueTypeId="3fca324f-4953-4896-8e66-991dc653560c"/>
+    <managerType typeId="b290cdb8-c192-4806-b068-97bc1dd9436c" valueTypeId="b0c9c11f-8ba9-41b1-b0cb-f8e35e71a633"/>
+  </producedTypes>
+  <name>ВаловаяПрибыль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валовая прибыль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="c4067923-0878-4e53-9d43-6407178fe353">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

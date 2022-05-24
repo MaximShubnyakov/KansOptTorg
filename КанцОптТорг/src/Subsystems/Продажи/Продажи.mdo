@@ -11,4 +11,6 @@
   <content>Document.УстановкаЦенНоменклатуры</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Report.ВаловаяПрибыль</content>
 </mdclass:Subsystem>
