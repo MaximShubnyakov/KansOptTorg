@@ -50,6 +50,7 @@
   <documents>Document.РеализацияТоваров2</documents>
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <documents>Document.БухгалтерскаяОперация</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкиТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
