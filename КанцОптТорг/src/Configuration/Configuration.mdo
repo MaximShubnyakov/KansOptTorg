@@ -51,10 +51,12 @@
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documents>Document.БухгалтерскаяОперация</documents>
+  <documents>Document.ЗакрытиеМесяца</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкиТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
   <reports>Report.ВаловаяПрибыль</reports>
+  <reports>Report.ОстаткиПоСчетамБУ</reports>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
