@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2f3447c-dd23-4151-9a93-1eb57ba548de">
+  <producedTypes>
+    <objectType typeId="aae85fef-2917-45f8-ad9b-0faa9a3a3a2f" valueTypeId="080253b7-117d-4834-a5f1-6ebe4e92dca4"/>
+    <managerType typeId="6f00472a-e090-4906-acc2-8ea22d3124cd" valueTypeId="d2d856b6-5a85-4bd7-9c2f-7f32774b757a"/>
+  </producedTypes>
+  <name>КлассификацияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификация номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="eab39a11-ed23-402e-8f8d-f8994ed5de8f">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
